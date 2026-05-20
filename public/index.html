@@ -11,7 +11,7 @@
 			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
 		/>
 		<script src="/particles.min.js"></script>
-		<title>Space</title>
+		<title>VOID</title>
 		<link rel="icon" type="icon/x-icon" href="/assets/favicon.ico" />
 		<meta
 			name="viewport"
@@ -67,11 +67,6 @@
 				>
 			</li>
 			<li>
-				<a href="/g"
-					><span class="material-symbols-outlined">joystick</span></a
-				>
-			</li>
-			<li>
 				<a href="/a"
 					><span class="material-symbols-outlined">apps</span></a
 				>
@@ -103,7 +98,7 @@
 					target="_blank"
 					href="https://discord.gointospace.app"
 					><i class="fa-brands fa-discord"></i
-				></a>
+				></a
 			</li>
 		</ul>
 		<a href="/~#news">
@@ -131,7 +126,7 @@
 					<span
 						class="typewrite"
 						data-period="2000"
-						data-type='[ "Space.","freedom.","aesthetic.", "modern.", "beautiful.", "privacy.","fast.","exploration.","amazing.","your dream site.","all you need.","perfection.","something new.","unreal."]'
+						data-type='[ "VOID.","freedom.","aesthetic.", "modern.", "beautiful.", "privacy.","fast.","exploration.","amazing.","your dream site.","all you need.","perfection.","something new.","unreal." ]'
 					>
 						<span class="wrap"></span>
 					</span>
@@ -148,36 +143,70 @@
 				>
 					Start your unblocking journey today!
 				</p>
-				<button
-					style="
-						opacity: 0;
-						animation: fade-in-bottom 0.6s ease-in-out forwards;
-						animation-fill-mode: visible;
-						animation-delay: 1.2s;
-						display: inline-flex;
-					"
-					class="btn"
+				<div
+					style="animation: fade-in-bottom 0.6s ease-in-out forwards; animation-fill-mode: visible; animation-delay: 1.2s; display: inline-flex; flex-direction: column; align-items: center; gap: 20px;"
 				>
-					<a style="text-decoration: none" href="/&">
-						<p
-							style="
-								font-weight: 600;
-								margin: 7px;
-								font-size: 14px;
+					<div
+						style="animation: fade-in-top 1s; display: flex; flex-direction: column; align-items: center;"
+						class="search-header"
+					>
+						<img src="/assets/imgs/s/Google.webp" class="searchEngineIcon" style="margin-bottom: 10px;" />
+						<form id="formintospace" style="width: 100%;">
+							<input
+								id="gointospace"
+								placeholder="Search VOID..."
+								class="search-header__input"
+								type="text"
+								style="width: 300px;"
+							/>
+							<button
+								aria-label="search"
+								type="submit"
+								class="search-header__button gointospaceSearchButton"
+							>
+								<svg
+									fill="none"
+									viewBox="0 0 18 18"
+									height="18"
+									width="18"
+									class="search-header__icon"
+								>
+									<path
+										fill="#3A3A3A"
+										d="M7.132 0C3.197 0 0 3.124 0 6.97c0 3.844 3.197 6.969 7.132 6.969 1.557 0 2.995-.49 4.169-1.32L16.82 18 18 16.847l-5.454-5.342a6.846 6.846 0 0 0 1.718-4.536C14.264 3.124 11.067 0 7.132 0"
+									></path>
+								</svg>
+							</button>
+						</form>
+					</div>
+					<button
+						style="
+							opacity: 1;
+							display: inline-flex;
+						"
+						class="btn"
+					>
+						<a style="text-decoration: none" href="/&">
+							<p
+								style="
+									font-weight: 600;
+									margin: 7px;
+									font-size: 14px;
 
-								display: flex;
-								align-items: center;
-								font-family: 'DM Sans', sans-serif;
-							"
-						>
-							Get Started<i
-								style="width: 18px; margin-left: 5px"
-								alt="Get started icon"
-								data-lucide="sparkles"
-							></i>
-						</p>
-					</a>
-				</button>
+									display: flex;
+									align-items: center;
+									font-family: 'DM Sans', sans-serif;
+								"
+							>
+								Get Started<i
+									style="width: 18px; margin-left: 5px"
+									alt="Get started icon"
+									data-lucide="sparkles"
+								></i>
+							</p>
+						</a>
+					</button>
+				</div>
 			</div>
 		</div>
 		<div style="z-index: -998">
@@ -303,6 +332,7 @@
 		<script src="/js/index.js"></script>
 		<script src="/js/themes.js"></script>
 		<script src="/js/c.js"></script>
+		<script src="/js/p.js"></script>
 		<script>
 			lucide.createIcons();
 		</script>
